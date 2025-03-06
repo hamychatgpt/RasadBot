@@ -5,12 +5,9 @@ general:
 
 # تنظیمات دیتابیس
 database:
-  type: postgresql
-  host: localhost
-  port: 5432
+  type: sqlite
   name: twitter_monitor
-  user: postgres
-  password: your_password
+  connection_string: sqlite:///twitter_monitor.db  # استفاده از SQLite
   # connection_string: sqlite:///twitter_monitor.db  # برای SQLite
 
 # تنظیمات استخراج داده

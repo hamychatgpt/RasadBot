@@ -1,7 +1,7 @@
 import asyncio
 import logging
 import sys
-import datetime
+from datetime import datetime
 
 from core.config import config
 from core.database import init_db
